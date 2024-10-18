@@ -1,5 +1,6 @@
 .user-component {
   display: flex;
+  justify-content: space-between;
 }
 
 .user-component,
@@ -18,7 +19,6 @@
 .user-component__avatar--xl {
   width: 80px;
   height: 80px;
-  border-radius: 25px;
 }
 
 .user-component__avatar--sm {
@@ -36,4 +36,8 @@
   margin-top: 8px;
   font-size: 17px;
   color: rgba(0, 0, 0, 0.5);
+}
+
+.user-component__title--not-bold {
+  font-weight: 400;
 }
