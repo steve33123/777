@@ -38,3 +38,7 @@
   font-size: 32px;
   color: white;
 }
+
+.user-component__column {
+  margin-bottom: 25px;
+}

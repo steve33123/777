@@ -21,6 +21,7 @@
 
 .icon-row__icon span {
   margin-top: 18px;
+  /*사이즈 조절에서 문제가 생김 전반적으로 큰 화면에서의 가독성은 문제 없지만 창이 좁아졌을 때 글씨가 안예쁘게 접혀버림*/
 }
 
 .icon-row__icon:hover {
